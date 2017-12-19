@@ -1,0 +1,101 @@
+body, html {
+}
+.row1 {
+  background-color: #14171A;
+}
+
+.row2 {
+  color: black;
+}
+.spacer {
+  padding: 100px;
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.name {
+  color: white;
+  text-align: center;
+  font-family: 'Euphoria Script', cursive;
+  font-size: 50px;
+}
+
+.subtext {
+  color: gray;
+  text-align: center;
+}
+
+.pos {
+  font-size: 16px;
+  color: #343434;
+  margin-right: 10px !important;
+}
+
+.card{
+  float: none;
+  margin: 0px auto;
+  border-radius: 15px;
+}
+.btnRevenite {
+  background: #343434;
+  border: 1px solid #343434;
+}
+
+.btnRevenite:hover {
+  color: #343434;
+  background: transparent;
+  border: 1px solid #343434;
+}
+
+.contact {
+  text-align: center;
+}
+.contact a i{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: #343434;
+  padding: 20px;
+  border: 2px solid #343434;
+  border-radius: 50px;
+  text-decoration: none;
+  margin-bottom: 3px;
+}
+
+.contact a i:hover {
+  color: #343434;
+  background: white;
+}
+
+footer p {
+  padding-top: 100px;
+  color: #343434;
+  text-align: center;
+}
+
+    @media (min-width : 320px) {
+      body, html {
+        overflow: auto;
+      }
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+      body, html {
+        overflow: auto;
+      }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+      body, html {
+        overflow: hidden;
+      }
+    }
