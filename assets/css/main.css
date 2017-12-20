@@ -29,26 +29,38 @@ body, html {
   text-align: center;
 }
 
+.title {
+  font-size: 20px;
+}
+
 .pos {
   font-size: 16px;
   color: #343434;
   margin-right: 10px !important;
+  border-left: 2px solid black;
+  padding-left: 10px;
 }
 
 .card{
   float: none;
   margin: 0px auto;
   border-radius: 15px;
+  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.3)
+
 }
 .btnRevenite {
   background: #343434;
   border: 1px solid #343434;
+  width: 275px;
+  float: left;
+  margin: 0px auto;
+  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.3)
 }
 
 .btnRevenite:hover {
-  color: #343434;
-  background: transparent;
-  border: 1px solid #343434;
+  color: white;
+  background: #4AC07D;
+  border: 1px solid #4AC07D;
 }
 
 .contact {
@@ -67,13 +79,49 @@ body, html {
   border-radius: 50px;
   text-decoration: none;
   margin-bottom: 3px;
-}
+  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.3)
 
-.contact a i:hover {
+}
+i.fa-envelope:hover {
   color: #343434;
-  background: white;
+  background-color: white;
+}
+i.fa-twitter:hover{
+  background-color: #1DA1F2;
 }
 
+i.fa-discord:hover{
+  background-color: #7289DA;
+}
+
+i.fa-github:hover {
+  background-color: #767676;
+}
+
+i.fa-spotify:hover {
+  color: #1db954;
+  background-color: black;
+}
+
+i.fa-steam-square:hover {
+  color: white;
+  background-color: #171A21;
+}
+
+i.fa-bitbucket:hover {
+  color: white;
+  background-color: #205081;
+}
+
+i.fa-codepen:hover {
+  color: white;
+  background-color: black;
+}
+
+i.fa-shopping-cart:hover {
+  color: white;
+  background-color: #ff2d37;
+}
 footer p {
   padding-top: 100px;
   color: #343434;
