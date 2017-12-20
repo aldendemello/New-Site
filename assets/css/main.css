@@ -61,6 +61,7 @@ body, html {
   color: white;
   background: #4AC07D;
   border: 1px solid #4AC07D;
+  transition: 0.75s;
 }
 
 .contact {
@@ -95,7 +96,7 @@ i.fa-discord:hover{
 }
 
 i.fa-github:hover {
-  background-color: #767676;
+  background-color: #25292E;
 }
 
 i.fa-spotify:hover {
